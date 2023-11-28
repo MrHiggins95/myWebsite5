@@ -2,9 +2,56 @@
 <head>
 <style>
 
+	 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
 
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
 
+	.btn-5 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255,27,0);
+background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+.btn-5:hover {
+  color: #f0094a;
+  background: transparent;
+   box-shadow:none;
+}
+.btn-5:before,
+.btn-5:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #f0094a;
+  box-shadow:
+   -1px -1px 5px 0px #fff,
+   7px 7px 20px 0px #0003,
+   4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.btn-5:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+	
 body{
 	background: rgb(206,58,58);
 background: linear-gradient(90deg, rgba(206,58,58,1) 0%, rgba(0,0,0,1) 50%, rgba(206,58,58,1) 100%);	
@@ -45,7 +92,10 @@ a:hover, a:active {
  <div class="content">
  <h1>My Manchester United Website</h1> 
   <h2>The greatest sports team to ever exist</h2>
-	 <a href="https://mrhiggins95.github.io/myWebsite5/page2.html" target="_blank">HISTORY PAGE</a>
+	 <a href="https://mrhiggins95.github.io/myWebsite5/page2.html" target="_blank">HISTORY PAGE</a>   <div class="frame">
+ 
+ 
+  <button class="custom-btn btn-5"><span>Read More</span></button>
  <p>Manchester United Football Club, commonly referred to as Man United (often stylised as Man Utd), or simply United, is a professional football club based in Old Trafford, Greater Manchester, England.<br> The club competes in the Premier League, the top division in the English football league system. Nicknamed the Red Devils, they were founded as Newton Heath LYR Football Club in 1878, but changed their name to Manchester United in 1902.<br> After a spell playing in Clayton, Manchester, the club moved to their current stadium, Old Trafford, in 1910.</p>
  <br>
 	 <iframe src="https://giphy.com/embed/GQFe1aWLuaLzWQ8Pzb" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/manutd-mufc-ggmu-alejandro-GQFe1aWLuaLzWQ8Pzb">VIVA GARNACHO!!</a></p>
