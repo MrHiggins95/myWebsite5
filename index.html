@@ -1,142 +1,101 @@
 <html>
 <head>
-<style>
-
-	 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-
-
-
-
-button {
-  margin: 20px;
-}
-.custom-btn {
-  width: 130px;
-  height: 40px;
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+  .mySlides {display:none;}
+  h1{
+    color:purple;
+    background-color: greenyellow;
+  }
+  
+     body{
+         text-align: center;
+         background-image: linear-gradient(rgb(13, 175, 177), rgb(222, 222, 222));
+         min-width: 100%;
+         min-height: 100%;
+      }
+    .bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
   color: #fff;
-  border-radius: 5px;
-  padding: 10px 25px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  background: transparent;
   cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
   outline: none;
 }
 
-
-
-	.btn-5 {
-  width: 130px;
-  height: 40px;
-  line-height: 42px;
-  padding: 0;
-  border: none;
-  background: rgb(255,27,0);
-background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
-}
-.btn-5:hover {
-  color: #f0094a;
-  background: transparent;
-   box-shadow:none;
-}
-.btn-5:before,
-.btn-5:after{
-  content:'';
-  position:absolute;
-  top:0;
-  right:0;
-  height:2px;
-  width:0;
-  background: #f0094a;
-  box-shadow:
-   -1px -1px 5px 0px #fff,
-   7px 7px 20px 0px #0003,
-   4px 4px 5px 0px #0002;
-  transition:400ms ease all;
-}
-.btn-5:after{
-  right:inherit;
-  top:inherit;
-  left:0;
-  bottom:0;
-}
-.btn-5:hover:before,
-.btn-5:hover:after{
-  width:100%;
-  transition:800ms ease all;
-}
-	
-body{
-	background: rgb(206,58,58);
-background: linear-gradient(90deg, rgba(206,58,58,1) 0%, rgba(0,0,0,1) 50%, rgba(206,58,58,1) 100%);	
+.bn632-hover.bn24 {
+  background-image: linear-gradient(
+      to right,
+      #6253e1,
+      #852d91,
+      #a3a1ff,
+      #f24645
+    );
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
 
-.content {
-  max-width: 500px;
-  margin: auto;
-}
- 
- h1{
-  color: rgb(255,255,255);
- }
-  h2{
-  color: rgb(255,255,255);
- }
- p{
-  color: rgb(255,255,255);
- 
- }
-a:link, a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
+    
 
-a:hover, a:active {
-  background-color: red;
-}
-
-	body{
-		text-align: center;
-text-align: center;
-	}
-</style>
+    
+  </style>
 </head>
 
- 
 <body>
- <div class="content">
- <h1>My Manchester United Website</h1> 
-  <h2>The greatest sports team to ever exist</h2>
-	 <a href="https://mrhiggins95.github.io/myWebsite5/page2.html" target="_blank">HISTORY PAGE</a>  
-	 <br>
+<h1>Top 10 Games 2024</h1>
+<h2>Created by Mr Higgins</h2>
+<a href="https://store.steampowered.com/"><button class="bn632-hover bn24">Visit Steam</button></a>
+  <div class="w3-content w3-display-container">
+  <img class="mySlides" src="img_snowtops.jpg" style="width:100%">
+  <img class="mySlides" src="img_lights.jpg" style="width:100%">
+  <img class="mySlides" src="img_mountains.jpg" style="width:100%">
+  <img class="mySlides" src="img_forest.jpg" style="width:100%">
 
-	 <div>
- 
-  <button class="custom-btn btn-5" href="https://mrhiggins95.github.io/myWebsite5/page2.html"><span>Players</span></button>
- <br>
- <p>Manchester United Football Club, commonly referred to as Man United (often stylised as Man Utd), or simply United, is a professional football club based in Old Trafford, Greater Manchester, England.<br> The club competes in the Premier League, the top division in the English football league system. Nicknamed the Red Devils, they were founded as Newton Heath LYR Football Club in 1878, but changed their name to Manchester United in 1902.<br> After a spell playing in Clayton, Manchester, the club moved to their current stadium, Old Trafford, in 1910.</p>
- <br>
-	 <iframe src="https://giphy.com/embed/GQFe1aWLuaLzWQ8Pzb" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/manutd-mufc-ggmu-alejandro-GQFe1aWLuaLzWQ8Pzb">VIVA GARNACHO!!</a></p>
-  <br>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/ETrEybzQ51s?si=2F4aQAGqvPu25E0_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
 
-	 <br>
-	 <br>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
-	 <iframe width="560" height="315" src="https://www.youtube.com/embed/qgmhQZzoy1s?si=i63CZ8AXxEAQ9R_D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
 
-	 
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 
- </body>
-  
+
+</body>
+
 </html>
